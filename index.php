@@ -1,3 +1,6 @@
 <?php
-require 'ThinkPHP/ThinkPHP.php';
+define('APP_NAME','App');
+define('APP_PATH','./App/');
+define('THINK_PHP_PATH','./App/ThinkPHP/');
+require(THINK_PHP_PATH.'ThinkPHP.php');
 echo "三连弹测试页！";
